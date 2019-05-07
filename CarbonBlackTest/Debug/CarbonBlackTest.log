@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  test.cpp
+C:\Users\willi\source\repos\ConsoleBlackSample\CarbonBlackTest\test.cpp(20): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\willi\source\repos\ConsoleBlackSample\CarbonBlackTest\test.cpp(40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+ConsoleBlackSample.lib(QueueExample.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  CarbonBlackTest.vcxproj -> C:\Users\willi\source\repos\ConsoleBlackSample\Debug\CarbonBlackTest.exe

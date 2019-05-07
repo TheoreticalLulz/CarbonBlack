@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  test.cpp
+C:\Users\willi\source\repos\ConsoleBlackSample\CarbonBlackTest\test.cpp(20): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\willi\source\repos\ConsoleBlackSample\CarbonBlackTest\test.cpp(40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+test.obj : error LNK2019: unresolved external symbol "public: int __cdecl QueueExample::dequeue(void)" (?dequeue@QueueExample@@QEAAHXZ) referenced in function "private: virtual void __cdecl `anonymous namespace'::QueueTest_Correct_Test::TestBody(void)" (?TestBody@QueueTest_Correct_Test@?A0xbe49ef9e@@EEAAXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: void __cdecl QueueExample::queue(int)" (?queue@QueueExample@@QEAAXH@Z) referenced in function "private: virtual void __cdecl `anonymous namespace'::QueueTest_Correct_Test::TestBody(void)" (?TestBody@QueueTest_Correct_Test@?A0xbe49ef9e@@EEAAXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: int __cdecl StackExample::pop(void)" (?pop@StackExample@@QEAAHXZ) referenced in function "private: virtual void __cdecl `anonymous namespace'::StackTest_Correct_Test::TestBody(void)" (?TestBody@StackTest_Correct_Test@?A0xbe49ef9e@@EEAAXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: void __cdecl StackExample::push(int)" (?push@StackExample@@QEAAXH@Z) referenced in function "private: virtual void __cdecl `anonymous namespace'::StackTest_Correct_Test::TestBody(void)" (?TestBody@StackTest_Correct_Test@?A0xbe49ef9e@@EEAAXXZ)
+C:\Users\willi\source\repos\ConsoleBlackSample\x64\Debug\CarbonBlackTest.exe : fatal error LNK1120: 4 unresolved externals
